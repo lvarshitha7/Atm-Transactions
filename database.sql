@@ -5,6 +5,7 @@ create table users(
     name varchar(40),
     pin int not null,
     balance decimal(10,2));
+-- Sample values
 insert into users values
 (101, "Varshitha" , 1234, 50000);
 select * from users;
